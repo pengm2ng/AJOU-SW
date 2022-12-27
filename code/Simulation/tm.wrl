@@ -1,0 +1,14 @@
+#VRML V2.0 utf8
+
+Transform {
+  children Shape {
+    appearance Appearance {
+      texture ImageTexture {
+        url "tm1.jpg" 
+      }
+    }
+    geometry Box {
+      size 10 10 10
+    }
+  }
+}

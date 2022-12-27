@@ -1,0 +1,13 @@
+#VRML V2.0 utf8
+
+DEF tm1 Transform {
+  children DEF shape Shape {
+    appearance DEF appearance Appearance {
+      texture DEF imagetexture ImageTexture {
+        url "tm1.jpg" 
+      }
+    }
+    geometry Box {
+    }
+  }
+}
